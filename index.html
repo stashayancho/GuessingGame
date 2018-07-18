@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap and CSS here-->
+    <style>
+
+    </style>
+
+  </head>
+  <body>
+
+
+      <div id='app' class='container center'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Guessing Game</h1>
+          <h2 id='subtitle'>Guess a number between 1-100!</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <form>
+              <input id="player-input" class='center' type="text" autofocus=autofocus placeholder="#" maxlength="3">
+              <button id="submit" type="button" class='btn btn-success'>Go!</button>
+            </form>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='horizontal-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id="reset" type="button" class='btn btn-warning'>Reset</button>
+            <button id="hint" type="button" class='btn btn-info'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id='footer' class='center'>
+          <div class='row'>
+            <div class='col-sm-4'>
+              <img class='img-responsive' src='fa-logo@2x.png'></img>
+            </div>
+
+            <div class='col-sm-4'>
+              <h5>Project by Stasha Yancho</h5>
+            </div>
+
+            <div class='col-sm-4'>
+              <img class='img-responsive' src='grace_hopper_academy.png'></img>
+            </div>
+
+          </div>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+
+    <script src="GuessingGame-Part2/GuessingGame.js"></script>
+
+
+  </body>
+</html>
